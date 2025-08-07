@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Basti Ki Pathshala</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #FF6B35;
+      --secondary: #FFD23F;
+      --dark: #333;
+      --light: #FFF8F0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: var(--light);
+      color: var(--dark);
+    }
+
+    .navbar {
+      background-color: var(--primary);
+    }
+
+    .navbar .nav-link,
+    .navbar .logo-text {
+      color: #fff !important;
+      font-weight: 500;
+    }
+
+    .page-header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      padding: 100px 0 60px;
+      color: white;
+    }
+
+    .section-title {
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    .mission-card,
+    .vision-card,
+    .value-card,
+    .team-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .team-card:hover,
+    .value-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.1);
+    }
+
+    .value-icon {
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 15px;
+    }
+
+    .team-card img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid var(--primary);
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      font-size: 0.9rem;
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s ease;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a href="index.html" class="d-flex align-items-center gap-2 text-decoration-none">
+        <img src="Basti_Ki_Pathshala-_Official_Logo-removebg-preview.png" alt="Logo" style="width: 40px; height: 40px;">
+        <div class="logo-text">Basti Ki Pathshala</div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">About Us</h1>
+      <p class="lead">Transforming Lives Through Education</p>
+    </div>
+  </section>
+
+  <section class="about-content py-5">
+    <div class="container">
+      <div class="row align-items-center mb-5 fade-in">
+        <div class="col-lg-6">
+          <h2 class="section-title">Our Story</h2>
+          <p>Basti Ki Pathshala was founded in 2015 with a vision to provide quality education to every child, regardless of their background. Starting under a tree, we've grown to 15 centers and 5,000+ students.</p>
+          <p>Our founder, Mrs. Priya Sharma, started with just a few books. Now, our movement spans cities, led by 200+ volunteers committed to making a difference.</p>
+           
+    <div class="row mb-5 fade-in">
+        <div class="col-md-6 mb-4">
+          <div class="mission-card">
+            <h3><i class="fas fa-bullseye text-warning me-2"></i>Our Mission</h3>
+            <p>Providing accessible, quality education to underprivileged children and empowering them with knowledge and skills.</p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="vision-card">
+            <h3><i class="fas fa-eye text-warning me-2"></i>Our Vision</h3>
+            <p>A world where every child has the opportunity to learn, grow, and achieve their full potential.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="col-lg-6 text-center">
+          <img src="/IMG-20240216-WA0047-576x1024.jpg"  alt="Our Story" class="img-fluid rounded-3 shadow">
+        </div>
+      </div>
+
+     
+
+      <div class="row mb-5 fade-in">
+        <div class="col-12 text-center">
+          <h2 class="section-title mb-4">Our Core Values</h2>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="value-card text-center">
+            <div class="value-icon"><i class="fas fa-heart"></i></div>
+            <h5>Compassion</h5>
+            <p>Every child is treated with love, dignity, and care.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="value-card text-center">
+            <div class="value-icon"><i class="fas fa-balance-scale"></i></div>
+            <h5>Equality</h5>
+            <p>Equal learning opportunities for all children.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="value-card text-center">
+            <div class="value-icon"><i class="fas fa-lightbulb"></i></div>
+            <h5>Innovation</h5>
+            <p>Creative and evolving teaching methods.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="value-card text-center">
+            <div class="value-icon"><i class="fas fa-handshake"></i></div>
+            <h5>Collaboration</h5>
+            <p>We partner with communities and volunteers.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row fade-in">
+        <div class="col-12 text-center">
+          <h2 class="section-title mb-4">Meet the Team</h2>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="team-card text-center">
+             <svg xmlns="http://www.w3.org/2000/svg" height="88px" viewBox="0 -960 960 960" width="88px" fill="#333"><path d="M480-504.85q-49.5 0-82.44-32.94t-32.94-82.83q0-49.88 32.94-82.44 32.94-32.56 82.44-32.56t82.44 32.56q32.94 32.56 32.94 82.44 0 49.89-32.94 82.83T480-504.85ZM200-215.38v-57.85q0-26.46 15.15-47.31 15.16-20.84 39.77-32.54 59.31-26.15 115.02-39.61 55.7-13.46 110.04-13.46 54.33 0 109.94 13.57 55.62 13.58 114.51 39.85 25.44 11.5 40.51 32.27Q760-299.69 760-273.23v57.85H200Zm30.77-30.77h498.46v-27.08q0-15.23-10.27-29.35-10.27-14.11-28.11-23.42-54-26.38-105.61-37.88-51.6-11.5-105.24-11.5-53.64 0-105.86 11.5T268.92-326q-17.84 9.31-28 23.42-10.15 14.12-10.15 29.35v27.08ZM480-535.62q35.92 0 60.27-24.34 24.35-24.35 24.35-60.27t-24.35-60.27q-24.35-24.35-60.27-24.35t-60.27 24.35q-24.35 24.35-24.35 60.27t24.35 60.27q24.35 24.34 60.27 24.34Zm0-84.61Zm0 374.08Z"/></svg>
+           <h4>Priya Sharma</h4>
+            <p class="text-muted">Founder & Director</p>
+            <p>Education activist with 15+ years of experience in community development.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="team-card text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" height="88px" viewBox="0 -960 960 960" width="88px" fill="#333"><path d="M480-504.85q-49.5 0-82.44-32.94t-32.94-82.83q0-49.88 32.94-82.44 32.94-32.56 82.44-32.56t82.44 32.56q32.94 32.56 32.94 82.44 0 49.89-32.94 82.83T480-504.85ZM200-215.38v-57.85q0-26.46 15.15-47.31 15.16-20.84 39.77-32.54 59.31-26.15 115.02-39.61 55.7-13.46 110.04-13.46 54.33 0 109.94 13.57 55.62 13.58 114.51 39.85 25.44 11.5 40.51 32.27Q760-299.69 760-273.23v57.85H200Zm30.77-30.77h498.46v-27.08q0-15.23-10.27-29.35-10.27-14.11-28.11-23.42-54-26.38-105.61-37.88-51.6-11.5-105.24-11.5-53.64 0-105.86 11.5T268.92-326q-17.84 9.31-28 23.42-10.15 14.12-10.15 29.35v27.08ZM480-535.62q35.92 0 60.27-24.34 24.35-24.35 24.35-60.27t-24.35-60.27q-24.35-24.35-60.27-24.35t-60.27 24.35q-24.35 24.35-24.35 60.27t24.35 60.27q24.35 24.34 60.27 24.34Zm0-84.61Zm0 374.08Z"/></svg>
+            <h4>Rajesh Kumar</h4>
+            <p class="text-muted">Program Coordinator</p>
+            <p>Former teacher turned social entrepreneur, passionate about educational equity.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="team-card text-center">
+             <svg xmlns="http://www.w3.org/2000/svg" height="88px" viewBox="0 -960 960 960" width="88px" fill="#333"><path d="M480-504.85q-49.5 0-82.44-32.94t-32.94-82.83q0-49.88 32.94-82.44 32.94-32.56 82.44-32.56t82.44 32.56q32.94 32.56 32.94 82.44 0 49.89-32.94 82.83T480-504.85ZM200-215.38v-57.85q0-26.46 15.15-47.31 15.16-20.84 39.77-32.54 59.31-26.15 115.02-39.61 55.7-13.46 110.04-13.46 54.33 0 109.94 13.57 55.62 13.58 114.51 39.85 25.44 11.5 40.51 32.27Q760-299.69 760-273.23v57.85H200Zm30.77-30.77h498.46v-27.08q0-15.23-10.27-29.35-10.27-14.11-28.11-23.42-54-26.38-105.61-37.88-51.6-11.5-105.24-11.5-53.64 0-105.86 11.5T268.92-326q-17.84 9.31-28 23.42-10.15 14.12-10.15 29.35v27.08ZM480-535.62q35.92 0 60.27-24.34 24.35-24.35 24.35-60.27t-24.35-60.27q-24.35-24.35-60.27-24.35t-60.27 24.35q-24.35 24.35-24.35 60.27t24.35 60.27q24.35 24.34 60.27 24.34Zm0-84.61Zm0 374.08Z"/></svg>
+            <h4>Anita Verma</h4>
+            <p class="text-muted">Operations Manager</p>
+            <p>Expert in scaling educational programs and community engagement.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 Basti Ki Pathshala. Transforming lives through education.</p>
+    </div>
+  </footer>
+
+  <script>
+    const fadeEls = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+    fadeEls.forEach(el => observer.observe(el));
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
